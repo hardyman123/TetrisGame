@@ -1,0 +1,15 @@
+README Tetris
+
+HANDIN: This is my final handin for Tetris
+
+DESIGN CHOICES:		The PaneOrganizer classhis is the top level object. Here I create a 
+						borderpane and add an instance of my Tetris game to it.
+					The Tetris class contains all of the logic for my game, including clearing
+						lines, moving pieces, making new pieces, a timeline, and key input
+					The Piece class models all the things that each Tetris piece can do, like
+						be created, rotate, move, and generate a random piece
+					The Square class and is comprised of all the components/characteristics
+						that each square in our board and pieces have. Like color, position,
+						and status of whether or not it's part of the board.
+					
+KNOWN BUGS: No known bugs.
